@@ -17,7 +17,6 @@ public class LookAt : MonoBehaviour
         RIGHT = 0    // 오른쪽 방향 (0도)
     }
 
-    // 매 프레임마다 호출되는 Unity 메서드
     void Update()
     {
         // 매 프레임마다 LookAt2D 메서드를 호출하여 타겟을 바라보도록 회전시킴
