@@ -14,7 +14,7 @@ public class Arrow : MonoBehaviour
             instance = this;
         }
     }
-
+    //Update는 매 프레임 호출되고, FixedUpdate는 고정된 시간 간격으로 호출됨(물리 연산 및 리지드바디 관련 코드를 배치하는 데 유용)
     void FixedUpdate()
     {
         
