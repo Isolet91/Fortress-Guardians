@@ -10,7 +10,7 @@ public class CastleLvlUp : MonoBehaviour
     // 업그레이드 비용
     public int Price = 500;
 
-    // 레벨 업 함수
+    // 레벨 업 메서드
     public void LevelUp()
     {
         // Main Camera 게임 오브젝트를 찾음
